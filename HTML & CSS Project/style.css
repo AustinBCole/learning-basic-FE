@@ -1,0 +1,24 @@
+* { 
+    Box-sizing: Border-box 
+}
+.title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-featured-articles {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.headline-article {
+    
+    
+}
+.single-featured-article {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
