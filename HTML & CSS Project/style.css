@@ -1,11 +1,6 @@
 * { 
     Box-sizing: Border-box 
 }
-.title-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .all-categories {
     display: flex;
     align-items: stretch;
@@ -23,11 +18,13 @@
 }
 .article {
     font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
 }
 .article-title {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
+    font-size: 30px;
 }
 .all-categories {
     display: flex;
@@ -61,6 +58,13 @@
     width: 50%;
     border-right: 2px solid lightgray;
     border-left: 2px solid lightgray;
+}
+.title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 }
 
 /*Categories*/
