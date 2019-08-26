@@ -1,0 +1,81 @@
+* { 
+    Box-sizing: Border-box 
+}
+.title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-categories {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 100%;  
+}
+/*Top and bottom border here, just bottom border in featured-artcle-and-categories div*/
+.all-featured-articles {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.article {
+    font-family: 'Oswald', sans-serif;
+}
+.article-title {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.all-categories {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid lightgray;
+}
+.featured-article-and-categories {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.headline-article {
+    padding-left: 10px;
+}
+.headline-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.individual-categories {
+    padding-left: 20px;
+}
+.individual-category {
+    color: darkslategray;
+}
+.single-featured-article {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+}
+
+/*Categories*/
+.local {
+    background-color: burlywood;
+}
+.opinion {
+    background-color: salmon;
+}
+.politics {
+    background-color: aqua;
+}
+.sports {
+    background-color: limegreen;
+}
+.technology {
+    background-color: indianred;
+}
