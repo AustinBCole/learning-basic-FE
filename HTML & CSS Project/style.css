@@ -40,6 +40,7 @@
 }
 .headline-article {
     padding-left: 10px;
+    width: 50%;
 }
 .headline-image {
     display: block;
@@ -55,7 +56,7 @@
 .single-featured-article {
     padding-left: 10px;
     padding-right: 10px;
-    width: 50%;
+    width: 25%;
     border-right: 2px solid lightgray;
     border-left: 2px solid lightgray;
 }
