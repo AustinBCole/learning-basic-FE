@@ -1,7 +1,54 @@
 * { 
     Box-sizing: Border-box 
 }
+body {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
 .calc-container {
-    width: 800px;
-    margin: 0 auto;
+    width: 300px;
+	height: 500px;
+	background-color: black;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.clear-button {
+    width: 50%;
+}
+.clear-row {
+    height: 20%;
+    display: flex;
+}
+.mid-row {
+    height: 20%;
+    display: flex;
+}
+.output {
+    color: white;
+    display: flex;
+}
+.output-row {
+    height: 20%;
+    display: flex;
+}
+.quarter-row-button {
+    width: 25%;
+}
+.zero-button {
+    width: 75%;
+}
+.zero-row {
+    height: 20%;
+    display:flex;
 }
