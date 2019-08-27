@@ -38,6 +38,8 @@ p {
 }
 .clear-button {
     width: 50%;
+    border: none;
+    border-radius: 0;
 }
 .output {
     color: white;
@@ -54,6 +56,8 @@ p {
 .quarter-button {
     width: 25%;
     background: #ffbf80;
+    border: none;
+    border-radius: 0;
 }
 .quarter-button.back {
     background: white;
@@ -64,4 +68,6 @@ p {
 .zero-button {
     width: 75%;
     background: #ffbf80;
+    border: none;
+    border-radius: 0;
 }
