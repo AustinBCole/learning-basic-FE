@@ -15,7 +15,10 @@ p {
 .calc-container {
     width: 300px;
 	height: 500px;
-	background-color: black;
+    background-color: black;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
 	
 	position: absolute;
 	top:0;
@@ -43,13 +46,22 @@ p {
     font-size: 45px;
 }
 .output-row {
-    height: 20%;
+    height: 10%;
     display: flex;
     align-items: center;
+    background: darkslategray;
 }
 .quarter-button {
     width: 25%;
+    background: #ffbf80;
+}
+.quarter-button.back {
+    background: white;
+}
+.quarter-button.op {
+    background: #b3d9ff;
 }
 .zero-button {
     width: 75%;
+    background: #ffbf80;
 }
