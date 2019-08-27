@@ -1,0 +1,7 @@
+* { 
+    Box-sizing: Border-box 
+}
+.calc-container {
+    width: 800px;
+    margin: 0 auto;
+}
