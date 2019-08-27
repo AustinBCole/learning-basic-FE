@@ -6,6 +6,12 @@ body {
     justify-content: space-evenly;
     width: 100%;
 }
+/*
+    Cascade - the `.output` class has a different font-size.
+*/
+p {
+    font-size: 25px;
+}
 .calc-container {
     width: 300px;
 	height: 500px;
@@ -23,32 +29,27 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.button-row {
+    height: 20%;
+    display: flex;
+}
 .clear-button {
     width: 50%;
 }
-.clear-row {
-    height: 20%;
-    display: flex;
-}
-.mid-row {
-    height: 20%;
-    display: flex;
-}
 .output {
     color: white;
-    display: flex;
+    text-align: right;
+    width: 100%;
+    font-size: 45px;
 }
 .output-row {
     height: 20%;
     display: flex;
+    align-items: center;
 }
-.quarter-row-button {
+.quarter-button {
     width: 25%;
 }
 .zero-button {
     width: 75%;
-}
-.zero-row {
-    height: 20%;
-    display:flex;
 }
